@@ -1,9 +1,9 @@
 import React from "react";
+import Card from "./Card";
 
 function Todo(){
     return <div>
-        <input data-testid="test-1"/>  
-        <h1 data-testid="test-2">Hello world</h1>
+       <Card title="The pic" description="hello world" url="https://picsum.photos/200/300"/>
     </div>;
 }
 
